@@ -8,6 +8,8 @@
 </head>
 <body>
 
+<%@include file="header.jsp" %> 
 <h1>Welcome</h1>
+</center>
 </body>
 </html>
