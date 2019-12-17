@@ -3,20 +3,24 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
 	version="2.0" xmlns="http://java.sun.com/xml/ns/persistence">
-	<persistence-unit name="PERSISTENCE_UNIT_NAME" transaction-type="RESOURCE_LOCAL">
+	<persistence-unit name="pu" transaction-type="RESOURCE_LOCAL">
 
 		<!-- <mapping-file>META-INF/persistence.xml</mapping-file> -->
 		<class>model.PersonName	</class>
+		<class>model.Contact</class>
+		<class>model.Person</class>
+		<class>model.Address</class>
+		<class>model.PersonName</class>
 		<!-- <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider> -->
 		<properties>
 			<property name="javax.persistence.jdbc.url"
-				value="jdbc:postgresql://localhost:5432/axelor" />
+				value="jdbc:postgresql://localhost:5432/test" />
 			<property name="javax.persistence.jdbc.driver"
 				value="org.postgresql.Driver" />
 			<property name="javax.persistence.jdbc.user" value="axelor" />
 			<property name="javax.persistence.jdbc.password"
 				value="axelor" />
-			<property name="hibernate.hbm2ddl.auto" value="create" /> <!-- create / create-drop / update -->
+			<property name="hibernate.hbm2ddl.auto" value="update" /> <!-- create / create-drop / update -->
 
 			<property name="hibernate.show_sql" value="true" /> <!-- Show SQL in console -->
 			<property name="hibernate.format_sql" value="true" /> <!-- Show SQL formatted -->

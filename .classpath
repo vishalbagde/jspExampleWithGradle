@@ -6,82 +6,241 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="output" path="bin/default"/>
 	<classpathentry output="bin/main" kind="src" path="src/main/resources">
 		<attributes>
 			<attribute name="gradle_scope" value="main"/>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry output="bin/main" kind="src" path="src">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin/default"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
 	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.3.2.Final/9c911b682f4c7b74c9b3fa3271e5e078c377bf44/hibernate-core-5.3.2.Final-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.3.2.Final/5918a3a3d39fd28249622c677f85f230ee23b6fd/hibernate-core-5.3.2.Final.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/org.postgresql/postgresql/42.2.2/5b2accb833fd43226173c5be615b09c60b5dd226/postgresql-42.2.2-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/org.postgresql/postgresql/42.2.2/7ebd60d15eec1f9e796d68212121d92e3dd566b2/postgresql-42.2.2.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/org.hibernate.javax.persistence/hibernate-jpa-2.1-api/1.0.2/b44caf3f4e0eddc4cf124a6aef768b9a93521c21/hibernate-jpa-2.1-api-1.0.2-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/org.hibernate.javax.persistence/hibernate-jpa-2.1-api/1.0.2/cc986fd1a62ae50308a56041c7a7d52ee5f49fb6/hibernate-jpa-2.1-api-1.0.2.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/org.akhikhl.gretty/gretty/2.0.0/137e6d100c03bbabea65999d12502b846cf72879/gretty-2.0.0-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/org.akhikhl.gretty/gretty/2.0.0/13dd653a6e79d84c531a694b91e188d2f3a47125/gretty-2.0.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/ab3976d4574c48d22dc1abf6a9e8bd0fdf928223/javax.servlet-api-3.1.0-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/5.0.4.Final/69dfd6d60ee86cde367fa6dcdfcec0196e2c4298/hibernate-commons-annotations-5.0.4.Final-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/5.0.4.Final/965a18fdf939ee75e41f7918532d37b3a8350535/hibernate-commons-annotations-5.0.4.Final.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.2.Final/a44f0f22bbd9ccb96952806e73f6cc16ef7d2f67/jboss-logging-3.3.2.Final-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.2.Final/3789d00e859632e6c6206adc0c71625559e6e3b0/jboss-logging-3.3.2.Final.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/javax.persistence/javax.persistence-api/2.2/462dff65f6f8bde02ee9d8afe07fe9d50268199c/javax.persistence-api-2.2-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/javax.persistence/javax.persistence-api/2.2/25665ac8c0b62f50e6488173233239120fc52c96/javax.persistence-api-2.2.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.22.0-GA/810a2710a0792d017d755f701b5961cc33866c02/javassist-3.22.0-GA-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.22.0-GA/3e83394258ae2089be7219b971ec21a8288528ad/javassist-3.22.0-GA.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.8.12/5b123e3849e096d66440787f2add9e1726252f91/byte-buddy-1.8.12-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.8.12/82a340b11ea0a55e5d51b3ae559003454b8bf320/byte-buddy-1.8.12.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/antlr/antlr/2.7.7/83cd2cd674a217ade95a4bb83a8a14f351f48bd0/antlr-2.7.7.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/org.jboss.spec.javax.transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/f2f1c0a619a7f51c36f96d9e3eb6e5776834a358/jboss-transaction-api_1.2_spec-1.1.1.Final-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/org.jboss.spec.javax.transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/a8485cab9484dda36e9a8c319e76b5cc18797b58/jboss-transaction-api_1.2_spec-1.1.1.Final.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/org.jboss/jandex/2.0.5.Final/29cfb8bfeba7924af45a6cdcd00c90bc2cfd12fc/jandex-2.0.5.Final-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/org.jboss/jandex/2.0.5.Final/7060f67764565b9ee9d467e3ed0cb8a9c601b23a/jandex-2.0.5.Final.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.3.4/d5aa53c93626884209c1e82fdf44d2ccdaf8e9c2/classmate-1.3.4-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.3.4/3d5f48f10bbe4eb7bd862f10c0583be2e0053c6/classmate-1.3.4.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/javax.activation/javax.activation-api/1.2.0/1b4c6e77d35adab19794746d8ea753df30d77dca/javax.activation-api-1.2.0-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/javax.activation/javax.activation-api/1.2.0/85262acf3ca9816f9537ca47d5adeabaead7cb16/javax.activation-api-1.2.0.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="/home/axelor/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1-sources.jar" kind="lib" path="/home/axelor/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/org.akhikhl.gretty/gretty-core/2.0.0/67f07f9bd4ad4c7c1a2cb205030615c61ca5a081/gretty-core-2.0.0-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/org.akhikhl.gretty/gretty-core/2.0.0/145a188e9825afb8355b65793aded434c571a2c5/gretty-core-2.0.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.5.4.RELEASE/336547a1d63091667b2a3e152de4e5d43e8b5cd6/spring-boot-loader-tools-1.5.4.RELEASE-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.5.4.RELEASE/67ba8d60de0aa7633e8b9a50eb11a83d69f944/spring-boot-loader-tools-1.5.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/8.1.8.v20121106/6f6f950cbb17ec8eab90d3b25a29664991945708/jetty-util-8.1.8.v20121106-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/8.1.8.v20121106/3174e8d53033e3c4d350eba3112efdc170b40dc/jetty-util-8.1.8.v20121106.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-json/2.4.11/29c8da20e7426267c7db8f11622d7af5610007df/groovy-json-2.4.11-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-json/2.4.11/98b01ddd7811e27b8bb7900e3ea029d86f243e10/groovy-json-2.4.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/2.4.11/e413ed93ca80f5c8a0e5d82241579e3e29efc0/groovy-2.4.11-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/2.4.11/52a60df8b4cbfe39469171a42ca77a3e4eb4e737/groovy-2.4.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.2/6c5459816530a1962ac18cd315cc775b1b384329/commons-cli-1.2-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.2/2bf96b7aa8b611c177d329452af1dc933e14501c/commons-cli-1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/commons-configuration/commons-configuration/1.10/2427d5eaf4011f855a95bd523febda041728393b/commons-configuration-1.10-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/commons-configuration/commons-configuration/1.10/2b36e4adfb66d966c5aef2d73deb6be716389dc9/commons-configuration-1.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/f2d8698c46d1167ff24b06a840a87d91a02db891/commons-io-2.4-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/d2a489573c0ed2c4942b3660decad5d65087b406/commons-lang3-3.3.2-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/org.apache.servicemix.bundles/org.apache.servicemix.bundles.bcprov-jdk16/1.46_3/7dd02909524647efc021ae80c0c1fe57cdf8c896/org.apache.servicemix.bundles.bcprov-jdk16-1.46_3-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/org.apache.servicemix.bundles/org.apache.servicemix.bundles.bcprov-jdk16/1.46_3/bb45f2e86a211f6092e51a0494c73f3bd4bdec30/org.apache.servicemix.bundles.bcprov-jdk16-1.46_3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-devtools/1.3.3.RELEASE/e07e960b8e72d94d11b36ad359cd1152189a34f8/spring-boot-devtools-1.3.3.RELEASE-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-devtools/1.3.3.RELEASE/4802c8ddf34051b07a37124ca38dc7561fe44a47/spring-boot-devtools-1.3.3.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.3.3.RELEASE/4cd398d2642324046f156929cd891dbfe822e0d3/spring-boot-autoconfigure-1.3.3.RELEASE-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.3.3.RELEASE/e7a4a25f74dac6b335ffabc43e3e8a6e3066340e/spring-boot-autoconfigure-1.3.3.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.3.3.RELEASE/5e9756091cc536ab48a7f98bdb551f4246c4ed0d/spring-boot-1.3.3.RELEASE-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.3.3.RELEASE/641cc375499d444e4efbc1801902260daa79758d/spring-boot-1.3.3.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.2.5.RELEASE/8bcd5b15133bb5423cdc9f33da7e4ac585fd783a/spring-context-4.2.5.RELEASE-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.2.5.RELEASE/a75e18322c7b362fe1daa26a245ae672ec0f3138/spring-context-4.2.5.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.2.5.RELEASE/436d3d6181bbf498d8409525b449eb4ed94a2c5f/spring-aop-4.2.5.RELEASE-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.2.5.RELEASE/858d6c70909b3ce7e07b59fc936f8ccfcd81c0aa/spring-aop-4.2.5.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.2.5.RELEASE/6135730c939697c15f33f092a64396bb21d6ba0e/spring-beans-4.2.5.RELEASE-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.2.5.RELEASE/fa992ae40f6fc47117282164e0433b71da385e94/spring-beans-4.2.5.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.2.5.RELEASE/c55ae1e0e6858098c2b2b22a7a9638d6cd76db8d/spring-expression-4.2.5.RELEASE-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.2.5.RELEASE/a42bdfb833d0be6c18429aea3fb0fba81f85c6e8/spring-expression-4.2.5.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.9.RELEASE/f85656c1404f6e4fddbc1ca2180748856880913f/spring-core-4.3.9.RELEASE-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.9.RELEASE/430b7298bfb85d66fb61e19ca8f06231b911e9f5/spring-core-4.3.9.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/67313d715fbf0ea4fd0bdb69217fb77f807a8ce5/commons-lang-2.6-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/axelor/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/4a4b6d692e17846a9f3da036438a7ac491d3c814/aopalliance-1.0-sources.jar" kind="lib" path="/home/axelor/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
 </classpath>
