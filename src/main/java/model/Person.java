@@ -13,13 +13,18 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.SequenceGenerator;
+import javax.xml.ws.Action;
+
+import org.hibernate.annotations.Cascade;
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
 
 @Entity
 public class Person {
 	
 	@Id
 	@GeneratedValue(generator = "person_sequence",strategy = GenerationType.SEQUENCE)
-	@SequenceGenerator(sequenceName = "person_sequence",allocationSize = 50,initialValue = 0, name = "person")
+	@SequenceGenerator(sequenceName = "person_sequence",allocationSize = 1,initialValue = 0, name = "person" )
 	int person_id;
 	
 	String person_key;
@@ -27,10 +32,10 @@ public class Person {
 	PersonName personName;
 	String email;
 	
-	@ManyToOne(cascade = CascadeType.REMOVE)
+	@ManyToOne
 	Address address;
 	
-	@OneToMany (fetch = FetchType.EAGER,cascade = CascadeType.REMOVE)
+	@OneToMany (fetch = FetchType.EAGER,cascade = CascadeType.REMOVE,orphanRemoval = true)
 	List<Phone> phone=new ArrayList<Phone>();
 
 	public Person(int person_id, PersonName personName, String email, Address address,

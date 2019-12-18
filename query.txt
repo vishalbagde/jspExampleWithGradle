@@ -4,3 +4,11 @@ select * from phone;
 select * from contact;
 select * from person_phone;
 
+
+
+drop table person;
+drop table address;
+drop table  phone;
+drop table  contact;
+drop table person_phone;
+
